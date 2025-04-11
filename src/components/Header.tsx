@@ -8,10 +8,10 @@ export function Header() {
         <h1 className="font-bold text-xl">SmartNotes</h1>
       </div>
 
-      <div className="flex items-center gap-14 leading-6 text-[#737373]">
-        <p className="cursor-pointer hover:text-[#E7E7E7]">Features</p>
-        <p className="cursor-pointer hover:text-[#E7E7E7]">Pricing</p>
-        <p className="cursor-pointer hover:text-[#E7E7E7]">Support</p>
+      <div className="flex items-center gap-14 leading-6 text-[#d4d4d4]">
+        <a className="cursor-pointer hover:text-[#E7E7E7] tracking-wider">Features</a>
+        <a className="cursor-pointer hover:text-[#E7E7E7] tracking-wider">Pricing</a>
+        <a className="cursor-pointer hover:text-[#E7E7E7] tracking-wider">Support</a>
       </div>
 
         <button className="flex items-center gap-2 bg-gradient w-[167px] h-14 justify-center text-[#080808] rounded-md cursor-pointer">
